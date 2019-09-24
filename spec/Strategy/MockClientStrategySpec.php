@@ -8,8 +8,6 @@ use Http\Discovery\ClassDiscovery;
 use Http\Discovery\Strategy\DiscoveryStrategy;
 use Http\Discovery\Strategy;
 use PhpSpec\ObjectBehavior;
-use Psr\Http\Client\ClientInterface;
-use spec\Http\Discovery\Helper\DiscoveryHelper;
 
 class MockClientStrategySpec extends ObjectBehavior
 {
